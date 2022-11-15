@@ -1,0 +1,45 @@
+html,body {
+    background-color: rgb(236, 236, 236);
+}
+.container {
+    background-size: 100%;
+    min-width: 70%;
+    margin-top: 5%;
+    border: 1px solid rgb(235, 228, 228);
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px 10px rgb(194, 177, 177);
+    
+}
+form {
+    padding: 50px;
+}
+input {
+    color: rgb(236, 236, 236);
+}
+div {
+    margin-top: 15px;
+}
+#Home {
+    background-image: url("hand-holding-blood-glucose-meter-measuring-blood-sugar-the-background-is-stethoscope-and-chart-file.jpg");
+    background-size: cover;
+    text-align: center;
+    padding-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+.submit {
+    margin-top: 45px;
+    text-align: center;
+}
+.one td{ 
+    color: black;
+}
+table,th,td {
+    color: rgb(136, 127, 127);
+    text-align: center;
+    border-radius: 15px;
+    border: 3px solid rgb(196, 185, 185);
+}
+.result {
+    text-align: center;
+}
