@@ -37,11 +37,11 @@ print(ypred)
 print('ytest')
 print(ytest)
 
-from sklearn.metrics import confusion_matrix,classification_report
-print('confusion_matrix(ytest,ypred)')
+from sklearn.metrics import confusion_matrix,classification_report,accuracy_score
 print(confusion_matrix(ytest,ypred))
 print('classification_report(ytest,ypred)')
 print(classification_report(ytest,ypred))
+print(accuracy_score(ytest,ypred))
 
 error_rate = []
 k_error = []
@@ -74,4 +74,5 @@ print('confusion_matrix(ytest,ypred)')
 print(confusion_matrix(ytest,ypred))
 print('classification_report(ytest,ypred)')
 print(classification_report(ytest,ypred))
+print(accuracy_score(ytest,ypred))
 
